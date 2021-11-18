@@ -1,0 +1,128 @@
+body {
+    font-family: 'Monaco', monospace;
+    background-color: #000;
+}
+
+#container {
+   background-image: url('images/Image.png');
+   background-position: center;
+   height: 1000px;
+   width: 1000px;
+   margin: auto; 
+   top: 10px;
+   position: relative;
+   border-radius: 10px;
+   filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.749));
+}
+
+#calculator {
+    width: 320px;
+    height: 620px;
+    background-color: rgb(57, 192, 255);
+    margin:  0 auto;
+    top: 130px;
+    position: relative;
+    border: 0 solid #000;
+    position: center;
+    border-radius: 10px;
+    filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.749));
+}
+
+#calculator h1 {
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #000;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.number {
+    background-color: rgb(57, 192, 255);
+    cursor: pointer;
+}
+
+.number:active {
+    font-size: 13px;
+}
+
+.number:focus {
+    outline: 0;
+}
+
+.empty {
+    background-color: rgb(57, 192, 255);
+}
+
+.empty:focus {
+    outline: 0;
+}
+
+.operator {
+    cursor: pointer;
+}
+
+.operator:active {
+    font-size: 13px;
+}
+
+.operator:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}
