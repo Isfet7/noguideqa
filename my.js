@@ -14,6 +14,7 @@ car.prototype.talk= function(){
     console.log("car says", phrase);
     return phrase;
 };
+// this comment
 car.prototype.fireGun= function(){
     //returns a number from 0 - 9
     if( this.ammo >= 100){
